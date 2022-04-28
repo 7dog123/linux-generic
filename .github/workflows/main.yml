@@ -33,7 +33,6 @@ jobs:
 
       # Runs a set of commands using the runners shell
       - name: Run a multi-line script
-        run: ls -l \
-        /usr/src/linux-headers-5.4.0-77-generic/include/config
+        run: ls -l /usr/src/linux-headers-5.4.0-77-generic/include/config
         
         
